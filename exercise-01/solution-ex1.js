@@ -26,7 +26,7 @@ const main = () => {
     getData();
 
 }
-const getData = async () => {
+const getData =  () => {
     fetch('http://localhost:4000/Devices')
         .then((response) => response.json())
         .then((data) => {
